@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+section {
+    background-color: white;
+    padding: 0px 0px 10px 0px;
+}
+
+#vitrubio {
+    width: 100%;
+}
+
+nav {
+    font-family: Impact;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 90px;
+    line-height: 90px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 90px;
+    line-height: 90px;
+}
+
+.uiitem {
+    width: 240px;
+    height: 60px;
+}
+
+.uitxt {
+    position: relative;
+    top: -107px;
+    left: 40px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.uiimg {
+    height: 70px;
+    position: relative;
+    margin: 10px;
+}
+
+a {
+    color: white;
+}
+
+.obra {
+    width: 22%;
+    border: outset;
+    border-color: gold;
+    border-width: 12px;
+    margin: 10px;
+}
+
+.obra:hover {
+    border-width: 18px;
+    margin: 4px;
+}
+
+.placa {
+    position: relative;
+    left: 1.5%;
+    width: 22%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    border: double;
+    background-color: gold;
+    border-width: 5px;
+    font-weight: bold;
+    margin: 0px 0px 1% 0px;
+}
+
+#license {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+#creditos {
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+}
