@@ -12,6 +12,7 @@ section {
 }
 
 nav {
+    z-index: 100;
     font-family: Impact;
     position: sticky;
     top: 0px;
@@ -25,6 +26,7 @@ nav {
 }
 
 footer {
+    z-index: 100;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -36,7 +38,9 @@ footer {
 }
 
 .uiitem {
-    width: 240px;
+    color: white;
+    text-align: center;
+    width: 250px;
     height: 60px;
 }
 
@@ -51,15 +55,12 @@ footer {
 .uiimg {
     height: 70px;
     position: relative;
+    right: 30%;
     margin: 10px;
 }
 
-a {
-    color: white;
-}
-
 .obra {
-    width: 22%;
+    width: 76%;
     border: outset;
     border-color: gold;
     border-width: 12px;
@@ -73,8 +74,8 @@ a {
 
 .placa {
     position: relative;
-    left: 1.5%;
-    width: 22%;
+    left: 5%;
+    width: 76%;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -96,4 +97,37 @@ a {
     position: absolute;
     bottom: 0px;
     right: 150px;
+}
+
+#galeria {
+    display: grid;
+}
+
+#galeria a {
+    grid-row-start: 1;
+}
+
+
+.credit_item {
+    position: relative;
+    left: 10%;
+    height: 200px;
+}
+
+.credit_item img {
+    height: 200px;
+}
+
+.credit_item p {
+    font-family: Impact;
+    position: relative;
+    top: -220px;
+    left: 250px;
+    line-height: 200px;
+    margin: 0px 0px -150px 0px;
+    font-size: 36px;
+}
+
+br {
+    line-height: 100px;
 }
