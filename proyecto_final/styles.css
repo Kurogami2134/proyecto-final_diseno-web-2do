@@ -3,7 +3,8 @@ body {
 }
 
 section {
-    background-color: white;
+    background-image: url("imgs/bg.jpg");
+    background-size: cover;
     padding: 0px 0px 10px 0px;
 }
 
