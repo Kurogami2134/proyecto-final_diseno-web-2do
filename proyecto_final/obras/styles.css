@@ -10,7 +10,6 @@ nav {
     left: 0px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background-color: black;
     color: white;
     height: 90px;
@@ -24,7 +23,6 @@ footer {
     left: 0px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background-color: black;
     color: white;
     width: 100%;

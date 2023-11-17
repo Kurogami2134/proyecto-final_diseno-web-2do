@@ -19,7 +19,6 @@ nav {
     top: 0px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background-color: black;
     color: white;
     height: 90px;
@@ -31,7 +30,6 @@ footer {
     position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background-color: black;
     color: white;
     height: 90px;
