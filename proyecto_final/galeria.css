@@ -1,0 +1,140 @@
+﻿body {
+    margin: 0px;
+    background-color: black;
+}
+
+#fondo {
+    width: 100%;
+}
+
+nav {
+    z-index: 100;
+    font-family: Impact;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 12%;
+    line-height: 90px;
+}
+
+.uiitem {
+    text-align: center;
+    width: 250px;
+    height: 60px;
+}
+
+.uitxt {
+    position: relative;
+    top: -108px;
+    left: 60px;
+    line-height: 14px;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.uiimg {
+    height: 70px;
+    position: relative;
+    right: 20%;
+    margin: 10px;
+}
+
+#license {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+
+#creditos {
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+}
+
+#ml {
+    position: absolute;
+    right: 3%;
+    top: 45%;
+    width: 10%;
+}
+
+#mlp {
+    position: absolute;
+    right: 5.5%;
+    top: 88%;
+    width: 6%;
+}
+
+#elbeso {
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    width: 10%;
+}
+
+#elbesop {
+    position: absolute;
+    left: 5.5%;
+    top: 82%;
+    width: 6%;
+}
+
+#relojes {
+    position: absolute;
+    left: 18%;
+    top: 40%;
+    width: 20%;
+}
+
+#relojesp {
+    position: absolute;
+    left: 23%;
+    top: 71%;
+    width: 10%; 
+}
+
+#starry {
+    position: absolute;
+    left: 41%;
+    top: 50%;
+    width: 18%;
+}
+
+#starryp {
+    position: absolute;
+    left: 45.4%;
+    top: 76.8%;
+    width: 9%;
+}
+
+#meninas {
+    position: absolute;
+    right: 18%;
+    top: 40%;
+    width: 20%;
+}
+
+#meninasp {
+    position: absolute;
+    right: 23%;
+    top: 71%;
+    width: 10%;
+}
